@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    border-color: black;
+    border-radius: 15px;
+}
+body{
+    background-image:url(code6.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+body h1{
+    margin:0px 0px 0px 550px;
+    font-size: 30px;
+    color:black;
+    
+}#logo{
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+    
+    color: black;
+}
+#logo:hover{
+    color:rgba(18, 1, 78, 0.493);}
+    nav{
+        padding: 2px;
+    }
+    
+    nav ul{
+        list-style-type: none;
+        float: right;
+    }
+    nav ul li {
+        float: left;
+    }
+    
+    nav ul li a{
+        color:rgb(0, 0, 65);
+        
+        padding: 0 15px;
+        font-size: 1.5em;
+        font-family: Serif; 
+    }
+    
+    nav ul li a:hover{
+        color:rgb(173, 200, 230);  
+    }
+    
+.register{
+    background:rgb(189, 176, 199);
+
+    width: 500px;
+    margin:15px 0px 5px 400px;    
+    border-color: black;
+    color: black;
+    font-size:18px;
+    font-style:serif;
+    padding:30px;
+    border-radius:10px;
+}
+#register{
+    margin-left: 25px;
+}
+label{
+    colour:white;
+    font family: sans-serif;
+    font -size: 18px;
+    font-style: serif;
+}
+#name
+{   padding: 5px;
+    border-color:black;
+    border-radius: 12px;
+    outline: 0;
+}    
+#ph {padding: 5px;
+    border-color: black;
+    border-radius: 12px;
+    outline: 0;
+}    
+#Number{padding: 5px;
+    border-color: black;
+    border-radius: 12px;
+    outline: 0;
+}
+#date{padding: 5px;
+    border-color: black;
+    border-radius: 12px;
+    outline: 0;}
+#Email{padding: 5px;
+    border-color: black;
+    border-radius: 12px;
+    outline: 0;}
+#Password{padding: 5px;
+    border-color: black;
+    border-radius: 12px;
+    outline: 0;}
+
+#point            
+{                padding: 5px;
+                border-color:black;
+                border-radius: 12px;
+                outline: 0;}
+ #you          
+ {              padding: 5px;
+                border-color: black;
+                border-radius: 12px;
+                outline: 0;}
+#button{
+padding: 10px;
+ font-size: 20px;
+ font-family:sans-serif;
+ border-radius:5px;
+ outline: 0;
+ width: 250px;
+ 
+
+}
+#button:hover{
+    color:rgb(173, 200, 230);  
+}

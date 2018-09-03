@@ -1,0 +1,73 @@
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylsheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+
+body,html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+body{
+    background: url("code6.jpg") no-repeat;
+    background-size: cover;
+}
+
+nav{
+    padding: 50px;
+}
+
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    padding: 0 30px;
+    font-size: 1.5em;
+    font-family: Serif; 
+}
+
+nav ul li a:hover{
+    color:#fff;  
+}
+
+
+#logo{
+    font-size: 5em;
+    font-family: 'Oswald', sans-serif;
+}
+#logo:hover{
+    color: rgba(18, 1, 78, 0.493);
+}
+.container{
+    text-align: center;
+    width: 70%;
+    margin: 110px auto;
+}
+
+h1{
+    font-size: 3em;
+    font-family: 'Lobster', cursive;
+}
+#register{
+    font-family: cursive;
+    font-size: 2em;
+    padding: 5px 9px;
+    cursor:pointer;
+    background-color: rgb(0, 0, 65);
+    border: none;
+    color: white;
+}
+#register:hover{
+    background-color:rgb(2, 153, 253);
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration form></title>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body> 
+        <nav>
+            <a href="#" id="logo">Learn2Code</a>
+            <ul>
+                <li><a href="index.html"><u>Home</u></a></li>
+                <li><a href="register.html"><u>Register</u></a></li>
+                <li><a href="index.html"><u>About</u></a></li>
+            </ul>
+        </nav>   
+     <h1><u>!REGISTER NOW!</u></h1> 
+ <div class="register">
+    <form method="post" id="register" action="congrats.html">
+        <label> First Name :</label>
+        <input type="text" name="fname" id="name"
+        placeholder="Enter your first name" maxlength="15" required><br><br>
+        <label> Last Name :</label>
+       <input type="text" name="lname" id="name"
+        placeholder="Enter your last name" maxlength="15" required><br><br>
+        <label> Mobile number :</label>
+        <select id="ph">
+            <option>+91</option>
+            <option>+92</option>
+            <option>+93</option>
+            <option>+94</option>
+        </select>
+        <input type="number" name="Mnumber" id="Number" required
+        placeholder="Enter your mobile number" minlength="10" maxlength="10"><br><br>
+        <label> Date of birth</label>
+        <input type="Date" name="Date of birth" id="date" required><br><br>
+        <label> Email: </label>
+        <input type="Emailid" name="Email" id="Email" required
+        placeholder="Enter your email id"><br><br>
+         <label> Password: </label>
+       <input type="password" name="Password" id="Password" required
+        placeholder="Enter your password" minlength="8"><br><br>
+        <label> Your unique selling point : </label>
+       <input type="unique selling point" name="uniquesellingpoint" id="point" required
+       placeholder="Your unique selling point"><br><br>
+       <label> About you: </label>
+      <textarea row="7" cols="35"></textarea><br><br>
+       <label> Gender: </label>
+       <input type="radio" name="gender" id="Male"  value="male" required><span
+        >&nbsp; Male</span>&nbsp;
+        <input type="radio" name="gender" id="Female"  value="female"><span
+        >&nbsp; Female</span>&nbsp;
+        <input type="radio" name="gender" id="others" value="others"><span
+        >&nbsp; others</span>&nbsp;<br><br>
+	<a href="congrats.html"><button> SUBMIT </button> </a>
+    </form>
+    </div>
+    
+</body>
+</html>
